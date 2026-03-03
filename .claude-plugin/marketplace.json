@@ -6,17 +6,27 @@
   },
   "metadata": {
     "description": "A collection of agent skills for specialized tasks",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/torleifhalseth/skills",
+    "repository": "https://github.com/torleifhalseth/skills",
+    "tags": [
+      "norwegian",
+      "norsk",
+      "bokmål",
+      "nynorsk",
+      "writing",
+      "language",
+      "grammar",
+      "klarspråk"
+    ]
   },
   "plugins": [
     {
       "name": "norwegian-writing",
       "description": "Comprehensive Norwegian language writing guidelines and best practices based on official Norwegian spelling and grammar rules from Språkrådet. Covers klarspråk (plain language), comma rules, capitalization, compound words, sensitive language, and includes 1100+ Q&A from real language questions.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/norwegian-writing"
-      ]
+      "source": "./skills/norwegian-writing",
+      "strict": false
     }
   ]
 }
