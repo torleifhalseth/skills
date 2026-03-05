@@ -24,9 +24,12 @@
   "plugins": [
     {
       "name": "norwegian-writing",
-      "description": "Comprehensive Norwegian language writing guidelines and best practices based on official Norwegian spelling and grammar rules from Språkrådet. Covers klarspråk (plain language), comma rules, capitalization, compound words, sensitive language, and includes 1100+ Q&A from real language questions.",
-      "source": "./norwegian-writing",
-      "strict": false
+      "description": "Comprehensive Norwegian language writing guidelines and best practices based on official Norwegian spelling and grammar rules. Covers klarspråk (plain language), comma rules, capitalization, compound words, sensitive language, and includes 1100+ Q&A from real language questions.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/norwegian-writing"
+      ]
     }
   ]
 }
